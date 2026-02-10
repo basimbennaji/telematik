@@ -1,0 +1,21 @@
+basim@Bastian ~/ws/telematik 09:37:40  658 
+$  /usr/sbin/python3.14 /home/basim/ws/telematik/model_decision_tree.py
+Loading data...
+Training Decision Tree...
+Training Time: 3.95 seconds
+Evaluating Decision Tree...
+
+--- Decision Tree Classification Report ---
+              precision    recall  f1-score   support
+
+      Benign       1.00      1.00      1.00   1462422
+      Attack       1.00      1.00      1.00    115437
+
+    accuracy                           1.00   1577859
+   macro avg       1.00      1.00      1.00   1577859
+weighted avg       1.00      1.00      1.00   1577859
+
+Saved cm_decision_tree.png
+MESA-INTEL: warning: ../src/intel/vulkan/anv_formats.c:993: FINISHME: support more multi-planar formats with DRM modifiers
+MESA-INTEL: warning: ../src/intel/vulkan/anv_formats.c:959: FINISHME: support YUV colorspace with DRM format modifiers
+Saved roc_decision_tree.png
