@@ -1,0 +1,19 @@
+Loading data...
+Training Logistic Regression...
+C:\Users\bnaji\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\sklearn\linear_model\_sag.py:348: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Training Time: 5921.10 seconds
+Evaluating Logistic Regression...
+
+--- Logistic Regression Classification Report ---
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.99      0.99   1462621
+      Attack       0.88      0.99      0.93    115238
+
+    accuracy                           0.99   1577859
+   macro avg       0.94      0.99      0.96   1577859
+weighted avg       0.99      0.99      0.99   1577859
+
+Saved cm_logistic_regression.png
+Saved roc_logistic_regression.png
